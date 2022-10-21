@@ -1,0 +1,6 @@
+Pillow
+streamlit
+streamlit_option_menu
+scikit-learn==1.0.2
+pandas
+joblib

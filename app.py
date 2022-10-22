@@ -10,9 +10,9 @@ import pandas as pd
 import streamlit.components.v1 as components
 import string
 import re
-from nltk.corpus import stopwords
 import nltk
 nltk.download('stopwords')
+from nltk.corpus import stopwords
 from bs4 import BeautifulSoup
 import joblib
 

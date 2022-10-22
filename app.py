@@ -70,7 +70,7 @@ selected = option_menu(
 
 
 
-model = joblib.load('./model/nb_model.pkl')
+model = joblib.load('./model/nb_model.pkl.pkl')
 
 fake_data = pd.read_csv("./data/Fake.csv")
 true_data = pd.read_csv("./data/True.csv")

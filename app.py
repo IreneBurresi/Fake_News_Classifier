@@ -62,7 +62,7 @@ st.write("By Irene Burresi")
 selected = option_menu(
     menu_title=None,
     options=["Fake news classifier", "Data Visualisation"],
-    #icons=["emoji-smile", "mortarboard", "code-slash", "paperclip"],
+    icons=["arrow_forward", "bar_chart"],
     orientation="horizontal",
 )
 

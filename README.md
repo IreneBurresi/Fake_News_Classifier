@@ -40,7 +40,7 @@ In the Jupyter Notebook the dataset is:
 3. prepared for ML model training
 
 Then some different ML models are trained and evaluated on the training test. The final chosen model is Naive Bayes.
-The web app is deployed using Streamlit (at https://ireneburresi-videogames-sales-analysis-app-755m1w.streamlitapp.com).
+The web app is deployed using Streamlit (at https://ireneburresi-fake-news-classifier-app-loquc2.streamlitapp.com).
 
 ### Built With
 

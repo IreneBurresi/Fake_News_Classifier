@@ -137,6 +137,9 @@ if selected == "Fake news classifier":
 
 elif selected == "Data Visualisation":
     st.write("Coming soon")
+    st.container(
+        st.dataframe(data=true_data.head(5))
+    )
 
 
 

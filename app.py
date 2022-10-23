@@ -136,10 +136,20 @@ if selected == "Fake news classifier":
         st.write("This news is not fake")
 
 elif selected == "Data Visualisation":
-    st.write("Coming soon")
-    st.container(
-        st.dataframe(data=true_data.head(5))
-    )
+    st.write("Datasets")
+    st.write("Real news:")
+    st.dataframe(data=true_data.head(5))
+    st.write("Fake news:")
+    st.dataframe(data=fake_data.head(5))
+    st.write("---")
+    st.write("Datasets")
+    col1, col2 = st.columns(2)
+    with col1:
+        st.image('assets/wordcloud_fakes.png', caption="Fake News Worldcloud")
+    with col2:
+        st.image('assets/wordcloud_not_fakes.png', caption="Not Fake News Worldcloud")
 
+    st.image('assets/length.png', caption="Articles Length")
+    st.image('assets/words.png', caption="Articles Characters")
 
 
